@@ -1,6 +1,6 @@
 
     :root{
-      --accent:#0f766e;
+      --accent:#0f766dad;
       --accent-2:#0ea5a1;
       --muted:#6b7280;
       --bg:#0f172a;
@@ -15,7 +15,7 @@
     body{
       margin:0;
       background:linear-gradient(180deg,#071021 0%, #071724 60%);
-      color:#e6eef6ac;
+      color:#e6eef6;
       -webkit-font-smoothing:antialiased;
       -moz-osx-font-smoothing:grayscale;
       line-height:1.45;
