@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Event — Real World Case Study</title>
+  <meta name="description" content="Home — Real World Case Study Event | Insights, speakers, schedule, and case-study gallery." />
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="nav">
+        <div class="brand">
+          <div class="logo">RW</div>
+          <div>
+            <h1>Real-World Case Study</h1>
+            <div class="event-subtitle">Insights • Practicals • Networking</div>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#cases">Case Studies</a></li>
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="nav-actions">
+          <a class="cta" href="#register">Register</a>
+          <button class="menu-toggle" aria-label="menu">☰</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-card fade-up show">
+          <div class="kicker">IN-PERSON · HYBRID</div>
+          <h2>Event: Real-World Case Study — Turning Theory into Impact</h2>
+          <p>Join professionals, students, and researchers for a one-day intensive event where teams solve live case studies from industry partners and present actionable solutions.</p>
+
+          <div class="actions">
+            <a class="cta" href="#register">Reserve Seat</a>
+            <button class="filter-btn" onclick="scrollToSection('#cases')">See Case Studies</button>
+          </div>
+
+          <div class="card-stats">
+            <div class="stat"><b>12</b><small class="muted-text">Case Studies</small></div>
+            <div class="stat"><b>20+</b><small class="muted-text">Speakers</small></div>
+            <div class="stat"><b>1k+</b><small class="muted-text">Attendees</small></div>
+          </div>
+        </div>
+
+        <aside>
+          <div class="hero-card fade-up show">
+            <h3 class="next-cohort-title">Next Cohort</h3>
+            <p class="next-cohort-details">Date: <strong>November 14, 2025</strong><br>Location: TechHub Auditorium, City Center</p>
+            <div class="hero-card-links">
+              <a class="filter-btn">Students</a>
+              <a class="filter-btn">Industry</a>
+              <a class="filter-btn">Researchers</a>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="about" class="hero-card">
+        <h3>About the Event</h3>
+        <p class="about-description">"Real-World Case Study" is a hands-on event connecting academic knowledge with business problems. Each case includes data, constraints, and stakeholder goals. Teams have limited time to analyze, prototype, and pitch solutions — followed by expert feedback.</p>
+      </section>
+
+      <section id="cases" class="cases-section">
+        <div class="case-header-row">
+          <h3>Case Studies</h3>
+          <div>
+            <div class="filters">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="health">Health</button>
+              <button class="filter-btn" data-filter="transport">Transport</button>
+              <button class="filter-btn" data-filter="gov">GovTech</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="cases" id="case-grid">
+          <div class="case" data-cat="health">
+            <img src="https://images.unsplash.com/photo-1586773860410-1fbc5d2d8d30?q=80&w=800&auto=format&fit=crop" alt="health"/>
+            <h4>Optimizing Rural Clinic Supply Chains</h4>
+            <p class="case-desc">Design a logistics plan to reduce stockouts and delivery costs for rural health centers.</p>
+            <small class="difficulty-label">Difficulty: Medium</small>
+          </div>
+
+          <div class="case" data-cat="transport">
+            <img src="https://images.unsplash.com/photo-1504215680853-026ed2a45def?q=80&w=800&auto=format&fit=crop" alt="transport"/>
+            <h4>Last-Mile Delivery Optimization</h4>
+            <p class="case-desc-muted">Create an algorithm and operation plan to bring down delivery times in congested urban centers.</p>
+            <small class="difficulty-label">Difficulty: Hard</small>
+          </div>
+
+          <div class="case" data-cat="gov">
+            <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=800&auto=format&fit=crop" alt="govtech"/>
+            <h4>Citizen Feedback Analytics for Local Government</h4>
+            <p class="case-desc-muted">Build a dashboard that identifies priority issues from citizen reports and suggests response priorities.</p>
+            <small class="muted-text">Difficulty: Medium</small>
+          </div>
+
+          <div class="case" data-cat="health">
+            <img src="https://images.unsplash.com/photo-1587502536263-3c9b6e9f3b4c?q=80&w=800&auto=format&fit=crop" alt="health2"/>
+            <h4>Remote Diagnostics with Limited Connectivity</h4>
+            <p class="case-desc-muted custom-margin">Propose a low-bandwidth solution for remote diagnostics and triage.</p>
+            <small class="muted-text">Difficulty: Easy</small>
+          </div>
+
+          <div class="case" data-cat="transport">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=800&auto=format&fit=crop" alt="transport2"/>
+            <h4>Shared Micro-Mobility Pricing Model</h4>
+            <p class="case-desc-muted">Design a dynamic pricing model to increase utilization while keeping affordability.</p>
+            <small class="muted-text">Difficulty: Medium</small>
+          </div>
+
+          <div class="case" data-cat="gov">
+            <img src="https://images.unsplash.com/photo-1532619675605-0b53a0c4c6eb?q=80&w=800&auto=format&fit=crop" alt="gov2"/>
+            <h4>Digital IDs for Social Benefits</h4>
+            <p class="case-desc-muted custom-margin">Sketch a secure, privacy-preserving enrollment flow for benefits distribution.</p>
+            <small class="muted-text">Difficulty: Hard</small>
+          </div>
+        </div>
+      </section>
+
+      <section id="speakers">
+        <h3 class="featured-speakers-title">Featured Speakers</h3>
+        <div class="speakers">
+          <div class="speaker">
+            <div class="avatar">AK</div>
+            <div>
+              <strong>Aarti Kumar</strong>
+              <div class="speaker-role">Public Health Lead — Health NGO</div>
+            </div>
+          </div>
+
+          <div class="speaker">
+            <div class="avatar">RS</div>
+            <div>
+              <strong>Rahul Singh</strong>
+              <div class="speaker-role">Logistics Head — FastShip</div>
+            </div>
+          </div>
+
+          <div class="speaker">
+            <div class="speaker speaker-flex">
+              <div class="avatar">PM</div>
+              <div>
+                <strong>Priya Mehra</strong>
+                <div class="speaker-role">Digital Govt — City Office</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="schedule">
+        <h3 class="event-schedule-title">Event Schedule</h3>
+        <div class="schedule">
+          <div class="slot"><div><strong>09:00</strong> — Registration & Coffee</div><div class="muted-text">Lobby</div></div>
+          <div class="slot slot-margin-top"><div><strong>10:00</strong> — Opening Remarks</div><div class="muted-text">Main Hall</div></div>
+          <div class="slot slot-margin-top"><div><strong>11:00</strong> — Case Study Brief</div><div class="muted-text">Breakout Rooms</div></div>
+          <div class="slot slot-margin-top"><div><strong>14:00</strong> — Pitches & Jury</div><div class="muted-text">Main Stage</div></div>
+        </div>
+      </section>
+
+      <section id="register" class="hero-card register-section">
+        <h3>Register</h3>
+        <p class="register-desc">Fill this quick form to reserve your seat. (This demo form is non-functional.)</p>
+        <form id="regform" onsubmit="return submitForm(event)">
+          <div class="register-fields">
+            <input type="text" id="name" placeholder="Full name" required class="register-input"/>
+            <input type="email" id="email" placeholder="Email" required class="register-input email-input"/>
+          </div>
+          <div class="register-actions">
+            <label for="type" class="visually-hidden">Registration Type</label>
+            <select id="type" class="select-type">
+              <option>Student</option>
+              <option>Industry Professional</option>
+              <option>Researcher</option>
+            </select>
+            <button class="cta" type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+
+      <section id="contact" class="hero-card contact-section">
+        <h3>Contact</h3>
+        <p class="contact-info">Questions? Email <a href="mailto:events@realworld.com" class="contact-email">events@realworld.com</a> or call +91 98765 43210</p>
+      </section>
+
+      <footer>
+        <p>© 2025 Real-World Case Study • Crafted with ❤️ for hands-on learning</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
